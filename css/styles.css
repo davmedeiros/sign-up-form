@@ -57,6 +57,12 @@ body {
 #cover-container {
 	flex: 1;
 	background-color: red;
+	display: flex;
+}
+
+#cover-container > img {
+	object-fit: cover;
+	width: 100%;
 }
 
 main {

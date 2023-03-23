@@ -1,5 +1,5 @@
 function main() {
-  document.querySelector('.test').textContent = 'Hello, World!';
+  return 0;
 }
 
 main();

@@ -46,3 +46,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Start */
+body {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+
+#cover-container {
+	flex: 1;
+	background-color: red;
+}
+
+main {
+	flex: 2;
+	background-color: blue;
+}

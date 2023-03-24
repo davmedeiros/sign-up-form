@@ -172,6 +172,10 @@ input:focus {
 	box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
+input:invalid {
+	border-color: rgb(167, 34, 34);
+}
+
 main > div:last-child {
 	display: flex;
 	flex-direction: column;

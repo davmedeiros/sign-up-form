@@ -70,7 +70,8 @@ main {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	gap: 20px
+	gap: 20px;
+	min-width: 390px;
 }
 
 main > div {
@@ -88,6 +89,7 @@ main > div:first-child > p:last-child {
 p {
 	line-height: 1.1em;
 	padding: 2px 0;
+	max-width: 75ch;
 }
 
 p.large {

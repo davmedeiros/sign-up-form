@@ -70,10 +70,15 @@ main {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	gap: 20px
 }
 
 main > div {
 	padding: 10px 40px;
+}
+
+main > div:first-child {
+	margin-bottom: 25px;
 }
 
 main > div:first-child > p:last-child {
@@ -117,9 +122,26 @@ label {
 }
 
 input {
-	border: 1px solid gray;
-	border-radius: 4px;
+	border: 1px solid #E5E7EB;
+	border-radius: 6px;
 	padding: 6px;
+}
+
+main > div:last-child {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 30px
+}
+
+button {
+	padding: 20px 50px;
+	border: none;
+	border-radius: 10px;
+	background-color: #596D48;
+	color: white;
+	font-size: 1rem;
+	font-weight: 600;
 }
 
 

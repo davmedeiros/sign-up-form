@@ -211,3 +211,7 @@ a {
 a:active {
 	color: #414f34;
 }
+
+.error {
+	color: rgb(167, 34, 34);
+}

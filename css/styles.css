@@ -144,4 +144,20 @@ button {
 	font-weight: 600;
 }
 
+button:hover {
+	cursor: pointer;
+}
 
+button:active {
+	background-color: #414f34;
+}
+
+a {
+	color: #596D48;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+a:active {
+	color: #414f34;
+}

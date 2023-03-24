@@ -164,6 +164,12 @@ input {
 	border: 1px solid #E5E7EB;
 	border-radius: 6px;
 	padding: 6px;
+	outline: none;
+}
+
+input:focus {
+	border-color: #1f67dc;
+	box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
 main > div:last-child {

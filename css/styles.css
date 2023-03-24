@@ -56,7 +56,6 @@ body {
 
 #cover-container {
 	flex: 1;
-	background-color: red;
 	display: flex;
 }
 
@@ -66,8 +65,27 @@ body {
 }
 
 main {
+	background-color: #F9FAFB;
 	flex: 2;
-	background-color: blue;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
+
+main > div {
+	padding: 10px 40px;
+}
+
+main > div:first-child > p:last-child {
+	margin-top: 20px;
+}
+
+p {
+	line-height: 1.1em;
+}
+
+p.large {
+	font-size: 1.4rem;
+	font-weight: 600;
+}
+

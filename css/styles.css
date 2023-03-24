@@ -82,6 +82,7 @@ main > div:first-child > p:last-child {
 
 p {
 	line-height: 1.1em;
+	padding: 2px 0;
 }
 
 p.large {
@@ -89,3 +90,19 @@ p.large {
 	font-weight: 600;
 }
 
+#form-card {
+	background-color: white;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	margin: 20px 0;
+}
+
+form > .field {
+	display: flex;
+	flex-direction: column;
+	margin-right: 40px;;
+}

@@ -95,6 +95,7 @@ p.large {
 }
 
 form {
+	max-width: 600px;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 15px;
@@ -105,4 +106,20 @@ form > .field {
 	display: flex;
 	flex-direction: column;
 	margin-right: 40px;;
+	flex: auto;
+	gap: 4px;
 }
+
+label {
+	letter-spacing: 2px;
+	font-size: 0.7rem;
+	font-weight: 600;
+}
+
+input {
+	border: 1px solid gray;
+	border-radius: 4px;
+	padding: 6px;
+}
+
+

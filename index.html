@@ -14,24 +14,38 @@
         <div id="hero">
             <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
             <p>Sign up to get started.</p>
-            <p>You know you want to.</p>
+            <p>You <em>know</em> you want to.</p>
         </div>
         <form action="#" method="post">
-            <h2>Let's do this!</h2>
-            <fieldset>
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" name="first-name" id="first-name" required>
-                <label for="last-name">LAST NAME</label>
-                <input type="text" name="last-name" id="last-name" required>
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email" required>
-                <label for="phone-number">PHONE NUMBER</label>
-                <input type="tel" name="phone-number" id="phone-number">
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password" required>
-                <label for="confirm-password">CONFIRM PASSWORD</label>
-                <input type="password" name="confirm-password" id="confirm-password" required>
-            </fieldset>
+            <div>
+                <h2>Let's do this!</h2>
+                <div id="fields-area">
+                    <fieldset>
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" name="phone-number" id="phone-number">
+                    </fieldset>
+                    <fieldset>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required>
+                    </fieldset>
+                </div>
+            </div>
             <button type="submit">Create Account</button>
             <p>Already have an account? <a href="#">Log in</a></p>
         </form>

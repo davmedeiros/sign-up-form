@@ -14,3 +14,57 @@
     --accent-color: #F3AA60;
     --attention-color: #EF6262;
 }
+
+body {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+}
+
+#branding-area {
+    flex: 1;
+    background-color: var(--main-color);
+}
+
+main {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 40px;
+}
+
+form {
+    flex: 2;
+}
+
+form > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: var(--secondary-color);
+    padding: 40px;
+    flex-direction: column;
+}
+
+#fields-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 600px;
+}
+
+#fields-area fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    flex-direction: column;
+}

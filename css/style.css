@@ -51,15 +51,16 @@ form > div {
     flex-wrap: wrap;
     gap: 20px;
     background-color: var(--secondary-color);
-    padding: 40px;
+    padding: 80px 40px;
     flex-direction: column;
+    color: white;
 }
 
 #fields-area {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    max-width: 600px;
+    max-width: 640px;
 }
 
 #fields-area fieldset {
@@ -67,4 +68,10 @@ form > div {
     flex-wrap: wrap;
     border: none;
     flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    border: none;
+    padding: 5px 10px;
 }

@@ -23,13 +23,17 @@ body {
 
 #branding-area {
     flex: 1;
-    background-color: var(--main-color);
+    background: url(../images/michal-bielejewski-76eYVQYFQGA-unsplash.jpg);
+    background-size: cover;
 }
 
 main {
     flex: 2;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 0 16px black;
+    background-color: var(--secondary-color);
+    color: white;
 }
 
 #hero {
@@ -50,7 +54,7 @@ form > div {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: var(--secondary-color);
+    background-color: var(--attention-color);
     padding: 80px 40px;
     flex-direction: column;
     color: white;

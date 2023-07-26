@@ -54,6 +54,7 @@ form > div {
     padding: 80px 40px;
     flex-direction: column;
     color: white;
+    box-shadow: 0 0 16px black;
 }
 
 #fields-area {
@@ -74,4 +75,21 @@ form > div {
 input {
     border: none;
     padding: 5px 10px;
+}
+
+button {
+    padding: 20px 40px;
+    font-size: 1.2rem;
+    margin: 40px 40px 20px 40px;
+    border: none;
+    background-color: var(--accent-color);
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    box-shadow: 4px 4px 12px black;
+}
+
+form p {
+    padding: 0 40px;
 }

@@ -1,2 +1,1 @@
-# sign-up-form
-TOP - Sign Up Form
+# TOP - Educational Project - Sign Up Form
